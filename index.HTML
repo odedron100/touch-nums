@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/index.css">
+  <title>Touch nums</title>
+</head>
+<body onload="init()">
+  <table class="table">
+    <button class="easy-button" onClick="levelClicked(this)">EASY</button>
+    <button class="hard-button" onClick="levelClicked(this)">HARD</button>
+    <button class="extreme-button" onClick="levelClicked(this)">EXTREME</button>
+    <button class="restart-button" onClick="restart()">RESTART</button>
+    <div class="timer">0.00</div>
+
+    <tbody class="game-board">
+
+    </tbody>
+  </table>
+  <div class="winner"></div>
+  <script src="js/index.js"></script>
+</body>
+</html>
